@@ -1,0 +1,6 @@
+com\project\service\PaperSearchService$CacheEntry.class
+com\project\ResearchPaperFinderApplication.class
+com\project\config\RestTemplateConfig.class
+com\project\model\Paper.class
+com\project\service\PaperSearchService.class
+com\project\controller\PaperSearchController.class
