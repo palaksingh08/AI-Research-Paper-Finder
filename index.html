@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Research Paper Finder</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: linear-gradient(to right, #00c6ff, #0072ff); }
+        /* Additional styles for responsiveness and dark mode */
+        .search-filters, .sidebar { margin: 20px; padding: 15px; border-radius: 5px; }
+        /* Styles continue... */
+    </style>
+</head>
+<body>
+    <h1>AI Research Paper Finder</h1>
+
+    <div class="search-filters">
+        <label>Year Range: 
+           <input type="number" min="2020" max="2026" id="startYear"> - 
+           <input type="number" min="2020" max="2026" id="endYear">
+        </label>
+        
+        <label>Sort By: 
+            <select id="sortOptions">
+                <option value="relevance">Relevance</option>
+                <option value="recent">Recent</option>
+                <option value="mostCited">Most Cited</option>
+            </select>
+        </label>
+    </div>
+
+    <div class="sidebar">
+        <h2>Advanced Search Tips</h2>
+        <p>Use quotes for exact phrases...</p>
+        <!-- Additional tips -->
+    </div>
+
+    <button id="darkModeToggle">Toggle Dark Mode</button>
+
+    <script>
+        // JavaScript for handling favorites, dark mode, and CSV export
+        const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+        // Functionality for dark mode and other features...
+    </script>
+</body>
+</html>
